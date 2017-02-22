@@ -25,7 +25,7 @@ public class SecMailServer {
 		
 		public HttpServer() {
 			try {
-				this.sSocket = new ServerSocket(82);
+				this.sSocket = new ServerSocket(6772);
 			} 
 			catch (IOException e) {
 				System.out.println("IOException");
